@@ -1,0 +1,7 @@
+<view wx:if="{{toast.show}}" class='mask'>
+  <view wx:if="{{toast.image || toast.message}}" class='toast'>
+    <image wx:if="{{toast.image}}" src='{{toast.image}}'></image>
+    <view wx:if="{{toast.message}}" class='message'>{{toast.message}}</view>
+  </view>
+</view>
+

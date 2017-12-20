@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class='item' bindtap='showLoading'>showLoading</view>
+<view class='item' bindtap='showMessage'>showMessage</view>
+<view class='item' bindtap='showMessageWithCallBack'>showMessageWithCallBack</view>
+<view class='item' bindtap='showSuccess'>showSuccess</view>
+<view class='item' bindtap='showSuccessWithCallBack'>showSuccessWithCallBack</view>
+<view class='item' bindtap='showError'>showError</view>
+<view class='item' bindtap='showErrorWithCallBack'>showErrorWithCallBack</view>
+<toast toast="{{toast}}"></toast>
+
+
